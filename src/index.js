@@ -21,245 +21,787 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+   1     "Who speaks the first line of the series?": [
+            "Lorelai",
+            "Sookie",
+            "Luke",
+            "Rory",
+            "Logan"
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+    2    "Which journalist does Rory idolize?": [
+            "Christiane Amanpour",
+            "Lane",
+            "Nancy Drew",
+            "Steven King"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+    3    "Which major character was scripted as a woman?": [
+            "Luke",
+            "Kirk",
+            "Taylor Dosey",
+            "Michel"
         ]
     },
     {
-        "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be:": [
-            "Girls",
-            "Boys",
-            "Girls and boys",
-            "No way to tell"
+    4    "Who from Glee appears as a nurse in Season 1?": [
+            "Jane Lynch",
+            "Lea Michele",
+            "Chris Colfer",
+            "Naya Rivera"
         ]
     },
     {
-        "What do Reindeer eat?": [
-            "Lichen",
-            "Grasses",
-            "Leaves",
-            "Berries"
+    5    "Which character hates coffee in real life?": [
+            "Rory",
+            "Emily Gilmore",
+            "Lorelai",
+            "Dean"
         ]
     },
     {
-        "What of the following is not true?": [
-            "Caribou live on all continents",
-            "Both reindeer and Caribou are the same species",
-            "Caribou are bigger than reindeer",
-            "Reindeer live in Scandinavia and Russia"
+     6   "What singer does the Gilmore Girls theme song?": [
+            "Carole King",
+            "The Spice Girls",
+            "N Sync",
+            "Trey Songz"
         ]
     },
     {
-        "In what year did Rudolph make his television debut?": [
-            "1964",
-            "1979",
-            "2000",
-            "1956"
+    7    "What is the name of Babette's cat that dies in Season 1?": [
+            "Cinnamon",
+            "Li-lou",
+            "Mary Jane",
+            "Kenny"
         ]
     },
     {
-        "Who was the voice of Rudolph in the 1964 classic?": [
-            "Billie Mae Richards",
-            "Burl Ives",
-            "Paul Soles",
-            "Lady Gaga"
+     8   "What's the population of Stars Hollow?": [
+            "Nine thousand nine hundred seventy-three",
+            "four hundred sixty-four",
+            "Seventeen thousand three hundred fourty",
+            "one hundred"
         ]
     },
     {
-        "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-            "Montgomery Ward",
-            "Sears",
-            "Macys",
-            "Kmart"
+     9   "Who was specifically written a part?": [
+            "Liza Weil",
+            "Tristen",
+            "Lane",
+            "Sookie"
         ]
     },
     {
-        "Santa's reindeer named Donner was originally named what?": [
-            "Dunder",
-            "Donny",
-            "Dweedle",
-            "Dreamy"
+    10    "Which actress appeared in Dirty Dancing?": [
+            "Kelly Bishop",
+            "Kirk",
+            "Marjorie Houseman",
+            "Alexis Bledel"
         ]
     },
     {
-        "Who invented the story of Rudolph?": [
-            "Robert May",
-            "Johnny Marks",
-            "Santa",
-            "J.K. Rowling"
+     11   "What did Rory shoplift after she kissed Dean?": [
+            "Cornstarch",
+            "Flour",
+            "Milk",
+            "Grapes"
         ]
     },
     {
-        "In what location will you not find reindeer?": [
-            "North Pole",
-            "Lapland",
-            "Korvatunturi mountain",
-            "Finland"
+     12   "What band is Hep Alien's guitarist, Gil, a member of?": [
+            "Skid Row",
+            "Rolling Stones",
+            "One Republic",
+            "Blink 182"
         ]
     },
     {
-        "What Makes Santa's Reindeer Fly?": [
-            "Magical Reindeer Dust",
-            "Fusion",
-            "Amanita muscaria",
-            "Elves"
+    13    "Who was Richard Gilmore engaged to before Emily?": [
+            "Pennilyn Lot",
+            "Mrs. Kim",
+            "Drella",
+            "An Elf"
         ]
     },
     {
-        "Including Rudolph, how many reindeer hooves are there?": [
-            "36",
-            "24",
-            "16",
-            "8"
+     14   "Who has the last line in the series?": [
+            "Rory",
+            "Lorelai",
+            "Luke",
+            "Sookie"
         ]
     },
     {
-        "Santa only has one female reindeer. Which one is it?": [
-            "Vixen",
-            "Clarice",
-            "Cupid",
-            "Cupid"
+    15    "What is the name of the secret society at Chilton?": [
+            "The Puffs",
+            "The Gremlins",
+            "The Candles",
+            "The Pops"
         ]
     },
     {
-        "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-            "Sam",
+     16   "What was Luke's nickname at Stars Hollow High?": [
+            "Butch",
             "Frosty",
             "Burl",
             "Snowy"
         ]
     },
     {
-        "What was Rudolph's father's name?": [
-            "Donner",
-            "Dasher",
-            "Blixen",
-            "Comet"
+     17   "What town is Stars Hollow based on?": [
+            "Washington Depot, Connecticut",
+            "New York, New York",
+            "Windsor, Connecticut",
+            "Atlanta, Georgia"
         ]
     },
     {
-        "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-            "Comet",
-            "Blixen",
-            "Donner",
-            "Dasher"
+     18   "What day of the year is Luke's dark day?": [
+            "November thirtieth",
+            "June third",
+            "May nineth",
+            "May twentieth"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-            "Fireball",
-            "Clarice",
-            "Jumper",
-            "Vixen"
+     19   "What does Lorelai have to borrow constantly?": [
+            "A pen",
+            "Coffee Cup",
+            "Napkin",
+            "Jeans"
         ]
     },
     {
-        "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-            "Black mud",
-            "Bag",
-            "Pillow case",
-            "Sock"
+     20   "How long did Rory and Jess date in real life?": [
+            "three and a half years",
+            "one year",
+            "two years",
+            "five years"
         ]
     },
     {
-        "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-            "Dentist",
-            "Reindeer",
-            "Toy maker",
-            "Candlestick maker"
+     21   "In what year did Lorelai and Luke get together?": [
+            "Season four",
+            "Season two",
+            "Season three",
+            "Season six"
         ]
     },
     {
-        "In the 1964 movie,what was the Bumble's one weakness?": [
-            "Could not swim",
-            "Always hungry",
-            "Candy canes",
-            "Cross eyed"
+     22   "What Season is Rory Dating Jess?": [
+            "Season 3",
+            "Season 6",
+            "Season 4",
+            "Season 1"
         ]
     },
     {
-        "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-            "Peppermint",
-            "Gold",
-            "India",
-            "Polar Bears"
+      23  "Who did Lorelai almost marry in Season 2?": [
+            "Max",
+            "Christopher",
+            "Luke",
+            "Jason"
         ]
     },
     {
-        "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-            "Square wheels",
-            "No Engine",
-            "Paint does not match",
-            "It does not toot"
+      24  "Who is Rory's Father?": [
+            "Christopher",
+            "Richard",
+            "Jason",
+            "Luke"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the Jack in the Box?": [
-            "Charlie",
-            "Sam",
-            "Billy",
-            "Jack"
+       25 "When does Rory start dating Logan?": [
+            "Season 5",
+            "Season 4",
+            "Season 6",
+            "Season 7"
         ]
     },
     {
-        "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-            "Storm",
-            "No snow",
-            "No toys",
-            "The Reindeer were sick"
+      26  "What animal does Lorelai have": [
+            "Dog",
+            "Cat",
+            "Rabbit",
+            "Fish"
         ]
     },
     {
-        "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-            "Oink",
-            "Growl",
-            "Bark",
-            "Meow"
+     27   "Who is Sookie married to?": [
+            "Jackson",
+            "Kirk",
+            "Richard",
+            "Lorelai"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the prospector?": [
-            "Yukon Cornelius",
-            "Slider Sam",
-            "Bumble",
-            "Jack"
+     28   "What store was it before it was Luke's Diner?": [
+            "Hardware Store",
+            "Ice Cream Store",
+            "Make-Up Store",
+            "Movie theatre"
         ]
     },
     {
-        "How far do reindeer travel when they migrate?": [
-            "3000 miles",
-            "700 miles",
-            "500 miles",
-            "0 miles"
+     29   "What Inn did Lorelai and Sookie work at first?": [
+            "Independence Inn",
+            "Dragonfly Inn",
+            "The Shoemaker",
+            "Rampant Mate Inn"
         ]
     },
     {
-        "How fast can a reindeer run?": [
-            "48 miles per hour",
-            "17 miles per hour",
-            "19 miles per hour",
-            "14 miles per hour"
+     30   "who is the chef working in the Independence Inn?": [
+            "Sookie",
+            "Jackson",
+            "Luke",
+            "Sharon"
+        ]
+    },
+    {
+       31 "What store does Taylor have?": [
+            "Grocery Store",
+            "Diner",
+            "Pizza Parlor",
+            "Gas Station"
+        ]
+    },
+    {
+      32  "Who are Lorelai's parents?": [
+            "Emily and Richard",
+            "Rory and Logan",
+            "Christopher and Sherry",
+            "Logan and Finn"
+        ]
+    },
+    {
+     33   "What day is the dinner that Lorelai and Rory have to go to every week?": [
+            "Friday",
+            "Wednesday",
+            "Thursday",
+            "Sunday"
+        ]
+    },
+    {
+     34   "Who built a car for Rory?": [
+            "Dean",
+            "Jess",
+            "Doyle",
+            "Logan"
+        ]
+    },
+    {
+     35   "Where does Rory go to college in season 5?": [
+            "Yale",
+            "Harvard",
+            "Princton",
+            "Columbia"
+        ]
+    },
+    {
+     36   "What wedding did Lorelai and Luke dance at?": [
+            "Liz's",
+            "Luke's",
+            "Max's",
+            "Rory's"
+        ]
+    },  
+    {
+       37 "Who is Liz?": [
+            "Luke's Sister",
+            "Jackson's Sister,
+            "Christorpher's sister",
+            "Emily's sister"
+        ]
+    },
+    {
+      38  "Where did Jess go when Luke kicked him out?": [
+            "California",
+            "New York",
+            "Floriday",
+            "Colorado"
+        ]
+    },
+    {
+     39   "What is Sookie and Jackson's first baby named?": [
+            "Davey",
+            "Paul Anka",
+            "Jordan",
+            "George"
+        ]
+    },
+    {
+     40   "When Lane lived with her mother, where did she hide her CD's?": [
+            "Under the floor boards",
+            "Behind a chair",
+            "In the marriage jug",
+            "At Rory's house"
+        ]
+    },
+    {
+     41   "What instrument does Lane play in her band?": [
+            "Drums",
+            "Guitar",
+            "Trumpet",
+            "Piano"
+        ]
+    },
+    {
+     42   "Who broke Lorelai and Luke up, then got them back together?": [
+            "Emily",
+            "Christopher",
+            "Logan",
+            "Richard"
+        ]
+    },
+    {
+       43 "Who is the best man in Richard and Emily's wedding?": [
+            "Rory",
+            "Luke",
+            "Christopher",
+            "Lorelai"
+        ]
+    },
+    {
+      44  "Who did Lorelai call at her bachelorette party, before the wedding to Max?": [
+            "Christopher",
+            "Max",
+            "Emily",
+            "Jackson"
+        ]
+    },
+    {
+     45   "Who called Rory, 'Mary' when she first started at Chilton Academy?": [
+            "Tristan",
+            "Kirk",
+            "Dean",
+            "Jess"
+        ]
+    },
+    {
+     46   "Who was Luke married to?": [
+            "Nicole",
+            "Ms. Patty",
+            "Babette",
+            "Lorelai"
+        ]
+    },
+    {
+     47   "How many roommates did Rory have during her first year at Yale?": [
+            "four",
+            "two",
+            "three",
+            "one"
+        ]
+    },
+    {
+     48   "Why did Lorelai break up with Jason?": [
+            "He sued her dad",
+            "He got drunk",
+            "He cheated on her",
+            "He threatened her"
+        ]
+    },
+    {
+       49 "Why did Dean's wife throw him out?": [
+            "He had sex with Rory",
+            "He got drunk",
+            "He quit his job",
+            "He got her pregnant"
+        ]
+    },
+    {
+      50  "When was Gilmore Girls placed on the air in the U.S.?": [
+            "Two thousand",
+            "Two thousand two",
+            "Nineteen Ninety-nine",
+            "Two thousand one"
+        ]
+    },
+    {
+     51   "Before Rory chose to go to Yale, what college did she want to attend?": [
+            "Harvard",
+            "Princton",
+            "Duke",
+            "Columbia"
+        ]
+    },
+    {
+     52   "What was Luke's wife's job?": [
+            "Lawyer",
+            "doctor",
+            "housewife",
+            "mail carrier"
+        ]
+    },
+    {
+     53   "When Lane decides to rebel and dye her hair, what color did she choose?": [
+            "purple",
+            "pink",
+            "green",
+            "blonde"
+        ]
+    },
+    {
+     54   "Who does Emily invite to the wedding to distract Lorelai from Luke?": [
+            "Christopher",
+            "Max Medina",
+            "Alex",
+            "Jason Stiles"
+        ]
+    },
+    {
+       55 "Who is Dean's wife?": [
+            "Lindsay",
+            "Riley",
+            "Rory",
+            "Katie"
+        ]
+    },
+    {
+      56  "What is Paris' first boyfriend's name?": [
+            "Jamie",
+            "Max",
+            "Asher",
+            "Tristan"
+        ]
+    },
+    {
+     57   "Who gets burned by the cheese from Lorelai's birthday pizza during the test run?": [
+            "Kirk",
+            "Luke",
+            "Rory",
+            "Dean"
+        ]
+    },
+    {
+     58   "Who is Rory's first boyfriend?": [
+            "Dean",
+            "Jess",
+            "Logan",
+            "Tristan"
+        ]
+    },
+    {
+     59   "Who is Jess?": [
+            "Luke's Nephew",
+            "Lorelai's Cousin",
+            "Luke's Son",
+            "Sookie's Nephew"
+        ]
+    },
+    {
+     60   "Jess got at girlfriend, what was her name?": [
+            "Shane",
+            "Andy",
+            "Lane",
+            "Andrea"
+        ]
+    },
+    {
+       61 "What age was Lorelai when she had Rory?": [
+            "Sixteen",
+            "twenty-one",
+            "thirteen",
+            "twenty-four"
+        ]
+    },
+    {
+      62  "Who is Rory's enemy at Chilton?": [
+            "Paris",
+            "Nicky",
+            "Madaline",
+            "Ashley"
+        ]
+    },
+    {
+     63   "Who does yearly repairs on Lorelai's house?": [
+            "Luke",
+            "Richard",
+            "Dan",
+            "Mike"
+        ]
+    },
+    {
+     64   "What time was Rory born?": [
+            "Four o three a.m.",
+            "six o three a.m.",
+            "ten o three a.m.",
+            "two o three a.m."
+        ]
+    },
+    {
+     65   "What is Rory's middle name?": [
+            "Leigh",
+            "Emily",
+            "Ann",
+            "Mary"
+        ]
+    },
+    {
+     66   "How many generations of Gellar's have gone to Harvard?": [
+            "ten",
+            "five",
+            "six",
+            "twelve"
+        ]
+    },
+    {
+       67 "What kind of computer did Rory get for her birthday?": [
+            "Apple",
+            "Dell",
+            "Sony",
+            "Gateway"
+        ]
+    },
+    {
+      68  "What was the name of the line of skincare products Kirk was selling?": [
+            "Hay There",
+            "Grassy Knolls",
+            "Silky Smooth",
+            "Dove"
+        ]
+    },
+    {
+     69   "Who does Paris lose her virginity to?": [
+            "Jamie",
+            "Doyle",
+            "Alestar",
+            "Jess"
+        ]
+    },
+    {
+     70   "What does the nickname Gigi stand for?": [
+            "Georgia",
+            "Girl",
+            "Georgette",
+            "Giselle"
+        ]
+    },
+    {
+     71   "Where does Lorelai escape to during the spa weekend with her mother?": [
+            "the quiet room",
+            "the panic room",
+            "the safe room",
+            "the singles room"
+        ]
+    },
+    {
+     72   "Who tells Zach to burn in hell at the magazine stand?": [
+            "Mrs. Kim",
+            "Lane",
+            "Lorelai",
+            "Luke"
+        ]
+    }
+    {
+       73 "What makes Lorelai think she might be pregnant again?": [
+            "An Apple",
+            "weight gain",
+            "an orange",
+            "a banana"
+        ]
+    },
+    {
+      74  "What grade did Max give Rory on her first paper?": [
+            "D",
+            "A",
+            "B"
+        ]
+    },
+    {
+     75   "Where do Rory and Dean breakup?": [
+            "Dance marathon",
+            "At her house",
+            "at luke's",
+            "at Doose's"
+        ]
+    },
+    {
+     78   "Who did Rory go to Finn's birthday party with?": [
+            "Robert",
+            "Collin",
+            "Logan",
+            "Jess"
+        ]
+    },
+    {
+     79   "How many yellow daisies did Max send to Lorelai when he asked her to marry him?": [
+            "one thousand",
+            "one hundred",
+            "three thousand",
+            "ten"
+        ]
+    },
+    {
+     80   "Why did Lorelai have to use her emergency card during the dance marathon?": [
+            "Her shoe broke",
+            "Her dress ripped",
+            "She had to use the bathroom",
+            "She needed a hug"
+        ]
+    },
+    {
+       81 "Where does Logan take everyone for Valentine's Day?": [
+            "Martha's Vinyard",
+            "Europe",
+            "Italy",
+            "London"
+        ]
+    },
+    {
+      82  "What is the name of the Secret Society Logan belongs to?": [
+            "The Life and Death Brigade",
+            "The Skulls",
+            "Kappa Alpha Psi",
+            "Phi Kappa Psi"
+        ]
+    },
+    {
+     83   "When is Rory's birthdate?": [
+            "October eighth",
+            "May first ",
+            "June twenty-third",
+            "October fourteenth"
+        ]
+    },
+    {
+     84   "What did Paris inherit from Asher Flemming?": [
+            "A Printing Press",
+            "A Canon of Novels",
+            "Money",
+            "His Biography"
+        ]
+    },
+    {
+     85   "What famous author kept ordering iced tea at the Dragonfly Inn?": [
+            "Norman Mailer",
+            "Steven King",
+            "Nancy Drew",
+            "Little Kim"
+        ]
+    },
+    {
+     86   "What band does Rory go see with her mom, Sookie, Paris, Louise, and Madeline?": [
+            "The Bangles",
+            "The Cardigans",
+            "The Cranberries",
+            "A.C.D.C."
+        ]
+    },
+    {
+       87 "What is Luke's annual 'dark day'?": [
+            "The anniversary of his father's death",
+            "His ex-girlfriend's birthday",
+            "The anniversary of his divorce",
+            "The anniversary of his high school graduation"
+        ]
+    },
+    {
+      88  "What's Jackson's cousin's name who goes on a double date with Lorelai?": [
+            "Rune",
+            "Ryan",
+            "Roland",
+            "Rand"
+        ]
+    },
+    {
+     89   "What does Rory steal and get arrested for?": [
+            "Stealing a boat",
+            "Cereal from the Yale cafeteria",
+            "Drugs from the pharmacy",
+            "A watch"
+        ]
+    },
+    {
+     90   "How does Jess get a black eye?": [
+            "A swan",
+            "Fought with Dean",
+            "Playing softball",
+            "He fell"
+        ]
+    },
+    {
+     91   "What does Rory receive from Logan before he leaves for London?": [
+            "A model rocket",
+            "A Birkin bag",
+            "A plane ticket",
+            "A new job"
+        ]
+    },
+    {
+     92   "What is Luke's daughter's name?": [
+            "April",
+            "Summer",
+            "Autumn",
+            "Hannah"
+        ]
+    },
+    {
+       93 "How many Lorelai's are/were there in the show?": [
+            "three",
+            "two",
+            "one",
+            "five"
+        ]
+    },
+    {
+      94  "When was Stars Hollow founded?": [
+            "Seventeen seventy-nine",
+            "Eighteen seventy-seven",
+            "two thousand fourteen",
+            "nineteen ninety-three "
+        ]
+    },
+    {
+     95   "What's April's mother's name?": [
+            "Rachel",
+            "Sookie",
+            "Georgia",
+            "Nicole"
+        ]
+    },
+    {
+     96   "Where do Emily and Richard live?": [
+            "Hartford",
+            "Windsor",
+            "Boston",
+            "New york"
+        ]
+    },
+    {
+     97   "Who does Paris run into in speed dating?": [
+            "Doyle",
+            "Colin",
+            "Finn",
+            "Glen"
+        ]
+    },
+    {
+     98   "How much money does Lorelai ask Luke for as a loan for the Dragonfly?": [
+            "thirty thousand dollars",
+            "ten thousand dollars",
+            "five thousand dollars",
+            "four hundred dollars"
+        ]
+    },
+    {
+       99 "What is Christopher's last name?": [
+            "Hayden",
+            "Gerard",
+            "Porter",
+            "Brown"
+        ]
+    },
+    {
+      100  "Who was the first to know that Luke and Lorelai kissed?": [
+            "Kirk",
+            "Sookie",
+            "Jackson",
+            "Emily"
         ]
     }
 ];
